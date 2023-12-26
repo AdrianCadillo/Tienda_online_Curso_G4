@@ -5,7 +5,7 @@ class ProductoController
      
     public function index()
     {
-       // return "soy el index";
+        return View("producto.index");
     }
 
     public function create()

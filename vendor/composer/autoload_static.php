@@ -10,9 +10,16 @@ class ComposerStaticInit894d7d14e6b920cdbe9d9ee3b6162dbf
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
+        '7b43e7494e8d43b65b21fcb3798c1b14' => __DIR__ . '/..' . '/windwalker/utilities/src/bootstrap.php',
+        '75aa6620ed10fa59191611a76fc9c564' => __DIR__ . '/..' . '/windwalker/edge/src/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'Windwalker\\Utilities\\' => 21,
+            'Windwalker\\Edge\\' => 16,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -34,6 +41,14 @@ class ComposerStaticInit894d7d14e6b920cdbe9d9ee3b6162dbf
     );
 
     public static $prefixDirsPsr4 = array (
+        'Windwalker\\Utilities\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/windwalker/utilities/src',
+        ),
+        'Windwalker\\Edge\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/windwalker/edge/src',
+        ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
