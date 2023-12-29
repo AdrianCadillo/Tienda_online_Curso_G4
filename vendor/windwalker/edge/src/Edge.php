@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Windwalker\Edge;
 
+use app\lib\BaseController;
 use Closure;
 use Throwable;
 use Windwalker\Edge\Cache\EdgeArrayCache;
@@ -44,7 +45,7 @@ use Windwalker\Utilities\Wrapper\RawWrapper;
  *
  * @since  3.0
  */
-class Edge
+class Edge  extends BaseController
 {
     use ManageComponentTrait;
     use ManageEventTrait;

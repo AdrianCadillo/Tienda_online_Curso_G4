@@ -7,7 +7,10 @@
 @endsection
 
 @section('content')
-    <h1>Productos</h1>
+    <form action="{{route("producto/save")}}" method="post">
+   
+        <button>enviar</button>
+    </form>
 @endsection
 
 @section('js')

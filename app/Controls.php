@@ -3,6 +3,8 @@
 use Windwalker\Edge\Edge;
 use Windwalker\Edge\Loader\EdgeFileLoader;
 
+/**Variable que obtiene la configuración */
+$AppConfig = require 'config/app.php';
 /** Método para obtener las variables de entorno */
 
 function env(string $NameVariable,string $DefectValue="")
@@ -38,20 +40,26 @@ function View(string $vista,array $data =[])
 
 function asset(string $directorio):String
 {
-    return env("BASE_URL").DIRECTORIO_ASSET.$directorio;
+    return $GLOBALS["AppConfig"]["BASE_URL"].$GLOBALS["AppConfig"]["DIRECTORIO_ASSET"].$directorio;
 }
 
 /** component */
 
 function component(string $componente):string
 {
-    return  str_replace(".","/",DIRECTORIO_COMPONENTE.$componente).".blade.php";
+    return  str_replace(".","/",$GLOBALS["AppConfig"]["DIRECTORIO_COMPONENTE"].$componente).".blade.php";
 }
 
 /** Método que apunte a la plantilla => layout */
 function layout(string $layout)
 {
-    return  str_replace(".","/",DIRECTORIO_LAYOUT.$layout).".blade.php";
+    return  str_replace(".","/",$GLOBALS["AppConfig"]["DIRECTORIO_LAYOUT"].$layout).".blade.php";
+}
+
+/** Método para apuntar a una ruta */
+function route(string $ruta)
+{
+    return $GLOBALS["AppConfig"]["BASE_URL"].$ruta;
 }
 
  

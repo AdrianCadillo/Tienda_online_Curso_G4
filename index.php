@@ -2,9 +2,9 @@
 
 use Dotenv\Dotenv;
  
-require 'vendor/autolosad.php';
-require 'config/app.php';
+require 'vendor/autoload.php';
+Dotenv::createImmutable(__DIR__)->load();
 require 'app/Controls.php';
+require 'storage/debug.php';
 require 'autoload.php';
  
-Dotenv::createImmutable(__DIR__)->load();
