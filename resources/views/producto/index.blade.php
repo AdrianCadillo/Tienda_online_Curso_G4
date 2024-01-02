@@ -8,7 +8,8 @@
 
 @section('content')
     <form action="{{route("producto/save")}}" method="post">
-   
+        <input type="text" value="{{$this->Csrf()}}" name="_token">
+
         <button>enviar</button>
     </form>
 @endsection

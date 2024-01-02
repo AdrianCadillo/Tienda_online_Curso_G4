@@ -22,6 +22,7 @@ class Conexion
         $this->ConfigDataBase["USERNAME"],$this->ConfigDataBase["PASSWORD"]);
 
         $this->Conection->exec("set names utf8");
+ 
         } catch (\Throwable $th) {
            echo $th->getMessage();
         }

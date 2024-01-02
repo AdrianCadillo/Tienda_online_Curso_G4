@@ -43,3 +43,140 @@ Stack trace:
 #4 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
 #5 {main}
   thrown in C:\xampp\htdocs\curso_tienda\app\lib\Csrf.php on line 45
+[29-Dec-2023 04:31:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php:30
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(30): PDO->rollBack()
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 30
+[29-Dec-2023 04:33:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php:25
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(25): PDO->rollBack()
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 25
+[29-Dec-2023 04:34:11 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php:25
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(25): PDO->rollBack()
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 25
+[29-Dec-2023 04:34:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php:27
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(27): PDO->rollBack()
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 27
+[29-Dec-2023 04:36:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php:28
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(28): PDO->rollBack()
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 28
+[29-Dec-2023 04:38:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php:27
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(27): PDO->rollBack()
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 27
+[29-Dec-2023 04:40:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php:30
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(30): PDO->rollBack()
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 30
+[29-Dec-2023 04:44:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php:39
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(39): PDO->rollBack()
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 39
+[29-Dec-2023 04:44:40 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php:39
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(39): PDO->rollBack()
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 39
+[29-Dec-2023 04:45:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php:39
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(39): PDO->rollBack()
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 39
+[02-Jan-2024 01:41:36 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php on line 65
+[02-Jan-2024 02:54:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property app\orm\Model::$Tabla must not be accessed before initialization in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:131
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(22): app\orm\Model->Update(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 131
+[02-Jan-2024 02:54:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property app\orm\Model::$Tabla must not be accessed before initialization in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:131
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(22): app\orm\Model->Update(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 131
+[02-Jan-2024 02:55:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property app\orm\Model::$Tabla must not be accessed before initialization in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:131
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(22): app\orm\Model->Update(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 131
+[02-Jan-2024 02:55:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property app\orm\Model::$Tabla must not be accessed before initialization in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:131
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(22): app\orm\Model->Update(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 131
+[02-Jan-2024 02:55:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property app\orm\Model::$Tabla must not be accessed before initialization in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:131
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(22): app\orm\Model->Update(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 131
+[02-Jan-2024 02:58:22 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign app\models\Producto to property app\orm\Model::$Tabla of type string in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:134
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(22): app\orm\Model->Update(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 134
+[02-Jan-2024 02:58:23 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign app\models\Producto to property app\orm\Model::$Tabla of type string in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:134
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(22): app\orm\Model->Update(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 134
