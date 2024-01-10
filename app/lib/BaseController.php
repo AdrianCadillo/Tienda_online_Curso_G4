@@ -10,5 +10,12 @@ class BaseController
         session_start();
       }
   }  
-  use Request,Session,Csrf;
+  use Request,Session,Csrf,Fecha;
+
+  /** Método que muestra la cantidad de productos añadidos al carrito */
+
+  public function CantidadProductosEnCarrito():int
+  {
+    return $this->ExistSession("carrito")? count($this->getSession("carrito")) : 0;
+  }
 }

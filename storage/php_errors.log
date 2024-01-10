@@ -180,3 +180,195 @@ Stack trace:
 #3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
 #4 {main}
   thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 134
+[04-Jan-2024 23:25:20 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php on line 65
+[04-Jan-2024 23:32:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property app\orm\Model::$PrimaryKey must not be accessed before initialization in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:179
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(29): app\orm\Model->delete(11)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 179
+[04-Jan-2024 23:32:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property app\orm\Model::$PrimaryKey must not be accessed before initialization in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:179
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(29): app\orm\Model->delete(11)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 179
+[04-Jan-2024 23:32:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property app\orm\Model::$PrimaryKey must not be accessed before initialization in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:179
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(29): app\orm\Model->delete(11)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 179
+[04-Jan-2024 23:33:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property app\orm\Model::$PrimaryKey must not be accessed before initialization in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:179
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(29): app\orm\Model->delete(11)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 179
+[04-Jan-2024 23:33:32 Europe/Berlin] PHP Fatal error:  Type of app\models\Producto::$PrimaryKey must be string (as in class app\orm\Model) in C:\xampp\htdocs\curso_tienda\app\models\Producto.php on line 6
+[04-Jan-2024 23:33:55 Europe/Berlin] PHP Fatal error:  Type of app\models\Producto::$PrimaryKey must be string (as in class app\orm\Model) in C:\xampp\htdocs\curso_tienda\app\models\Producto.php on line 6
+[04-Jan-2024 23:34:17 Europe/Berlin] PHP Fatal error:  Type of app\models\Producto::$PrimaryKey must be string (as in class app\orm\Model) in C:\xampp\htdocs\curso_tienda\app\models\Producto.php on line 6
+[04-Jan-2024 23:47:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Typed property app\orm\Model::$Alias must not be accessed before initialization in C:\xampp\htdocs\curso_tienda\app\orm\Model.php:22
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php(29): app\orm\Model->initQuery()
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): ProductoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 22
+[04-Jan-2024 23:51:55 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php on line 65
+[09-Jan-2024 02:34:56 Europe/Berlin] PHP Warning:  unlink({{asset('dist/foto/')}}2024010902343980b792968e8e0cc6e6ee59db6baaf73ce3352261f062a5bb0f01dd257e2360b7.png): No such file or directory in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 103
+[10-Jan-2024 01:51:35 Europe/Berlin] PHP Warning:  compact(): Undefined variable $Producto1s in C:\xampp\htdocs\curso_tienda\app\Http\controllers\TiendaController.php on line 14
+[10-Jan-2024 01:58:07 Europe/Berlin] PHP Warning:  unlink({{asset('dist/foto/')}}20240109012005ff88055ab57ff9781f64afe808a416bb98dff2a7aa9d8f7c5e2d5623701d67d2.jpg): No such file or directory in C:\xampp\htdocs\curso_tienda\app\Http\controllers\ProductoController.php on line 88
+[10-Jan-2024 02:51:18 Europe/Berlin] PHP Warning:  Undefined array key "carrito" in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:51:18 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:26
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): app\lib\BaseController->getSession('carrito')
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:51:30 Europe/Berlin] PHP Warning:  Undefined array key "carrito" in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:51:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:26
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): app\lib\BaseController->getSession('carrito')
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:51:45 Europe/Berlin] PHP Warning:  Undefined array key "carrito" in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:51:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:26
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): app\lib\BaseController->getSession('carrito')
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:51:46 Europe/Berlin] PHP Warning:  Undefined array key "carrito" in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:51:46 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:26
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): app\lib\BaseController->getSession('carrito')
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:52:08 Europe/Berlin] PHP Warning:  Undefined array key "carrito" in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:52:08 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:26
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): app\lib\BaseController->getSession('carrito')
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:52:21 Europe/Berlin] PHP Warning:  Undefined variable $Productos in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 13
+[10-Jan-2024 02:52:21 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 13
+[10-Jan-2024 02:53:18 Europe/Berlin] PHP Warning:  Undefined array key "carrito" in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:53:18 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:26
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): app\lib\BaseController->getSession('carrito')
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:53:55 Europe/Berlin] PHP Warning:  Undefined array key "carrito" in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:53:55 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:26
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): app\lib\BaseController->getSession('carrito')
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#2 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[10-Jan-2024 02:54:16 Europe/Berlin] PHP Warning:  Attempt to read property "foto" on array in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 16
+[10-Jan-2024 02:56:13 Europe/Berlin] PHP Warning:  Undefined variable $Productos in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 14
+[10-Jan-2024 02:56:13 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 14
+[10-Jan-2024 02:56:33 Europe/Berlin] PHP Warning:  Undefined variable $Productos in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 14
+[10-Jan-2024 02:56:33 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 14
+[10-Jan-2024 02:57:10 Europe/Berlin] PHP Warning:  Attempt to read property "foto" on array in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[10-Jan-2024 02:57:46 Europe/Berlin] PHP Warning:  Attempt to read property "foto" on array in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[10-Jan-2024 03:11:06 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::destroyOneSesion(): Argument #1 ($NameSession) must be of type string, array given, called in C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php on line 83 and defined in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:30
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(83): app\lib\BaseController->destroyOneSesion(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->quitar_de_la_cesta()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'quitar_de_la_ce...')
+#3 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#4 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 30
+[10-Jan-2024 03:11:54 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::destroyOneSesion(): Argument #1 ($NameSession) must be of type string, array given, called in C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php on line 83 and defined in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:30
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(83): app\lib\BaseController->destroyOneSesion(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->quitar_de_la_cesta()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'quitar_de_la_ce...')
+#3 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#4 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 30
+[10-Jan-2024 03:12:25 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::destroyOneSesion(): Argument #1 ($NameSession) must be of type string, array given, called in C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php on line 83 and defined in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:30
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(83): app\lib\BaseController->destroyOneSesion(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->quitar_de_la_cesta()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'quitar_de_la_ce...')
+#3 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#4 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 30
+[10-Jan-2024 03:12:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::destroyOneSesion(): Argument #1 ($NameSession) must be of type string, array given, called in C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php on line 83 and defined in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:30
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(83): app\lib\BaseController->destroyOneSesion(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->quitar_de_la_cesta()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'quitar_de_la_ce...')
+#3 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#4 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 30
+[10-Jan-2024 03:12:47 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::destroyOneSesion(): Argument #1 ($NameSession) must be of type string, array given, called in C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php on line 83 and defined in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:30
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(83): app\lib\BaseController->destroyOneSesion(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->quitar_de_la_cesta()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'quitar_de_la_ce...')
+#3 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#4 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 30
+[10-Jan-2024 03:13:51 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::destroyOneSesion(): Argument #1 ($NameSession) must be of type string, array given, called in C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php on line 84 and defined in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:30
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(84): app\lib\BaseController->destroyOneSesion(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->quitar_de_la_cesta()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'quitar_de_la_ce...')
+#3 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#4 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 30
+[10-Jan-2024 03:13:53 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::destroyOneSesion(): Argument #1 ($NameSession) must be of type string, array given, called in C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php on line 84 and defined in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:30
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(84): app\lib\BaseController->destroyOneSesion(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->quitar_de_la_cesta()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'quitar_de_la_ce...')
+#3 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#4 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 30
+[10-Jan-2024 03:15:20 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Illegal offset type in unset in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:32
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(84): app\lib\BaseController->destroyOneSesion(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->quitar_de_la_cesta()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'quitar_de_la_ce...')
+#3 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#4 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 32

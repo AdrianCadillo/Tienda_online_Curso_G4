@@ -27,7 +27,7 @@ public function getSession(string $NameSession):string|int|bool|array
 }
 
 /**Eliminar una variable de sesión */
-public function destroyOneSesion(string $NameSession):void
+public function destroyOneSesion(string|array $NameSession):void
 {
    unset($_SESSION[$NameSession]); 
 }

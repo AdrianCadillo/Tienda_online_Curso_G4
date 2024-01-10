@@ -62,5 +62,22 @@ function route(string $ruta)
     return $GLOBALS["AppConfig"]["BASE_URL"].$ruta;
 }
 
+/*** Método que devuelve en formato json */
+
+function json(array $data,int $codeResp = 200)
+{
+ http_response_code($codeResp);
+ return json_encode($data);
+}
+
+/// Método para redireccionar
+function Redirect(string $redirect){
+ header("location:".$GLOBALS["AppConfig"]["BASE_URL"].$redirect);   
+}
+
+function Back(){
+ echo "<script>history.back()</script>"; 
+}
+
  
  

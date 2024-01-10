@@ -36,9 +36,25 @@ public function request(string $input)
     return null;
 }
 
-/** Método post */ 
+/** Método para validar si tenemos un archivo seleccionado */ 
 public function file_size(string $input)
 {
     return $_FILES[$input]['size'];
+}
+/** Método para validar obtener el tipo de archvo */ 
+public function file_type(string $input)
+{
+    return $_FILES[$input]['type'];
+}
+
+/** Método para obtener el nombre del archivo */ 
+public function file_Name(string $input)
+{
+    return $_FILES[$input]['name'];
+}
+/** Método para obtener el contenido del archivo */ 
+public function fileContent(string $input)
+{
+    return $_FILES[$input]['tmp_name'];
 }
 }

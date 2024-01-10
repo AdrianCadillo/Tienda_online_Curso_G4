@@ -37,7 +37,7 @@ trait Csrf
         $this->Sesion($this->NameToken,$Token);
     }
 
-    return "<input name='_token' value=".$this->getSession($this->NameToken).">";
+   echo "<input type='hidden' name='_token' value=".$this->getSession($this->NameToken).">";
   }
 
   /** Validar la existencia del token y verificarlo si una petición hace uso de ello*/

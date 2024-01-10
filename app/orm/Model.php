@@ -5,7 +5,17 @@ use app\database\Conexion;
 
 class Model extends Conexion implements orm
 {
+   use Save;
    protected string $Tabla = "";
+
+   /** Indicamos la clave primaria */
+   protected string $PrimaryKey;
+
+   /** Alias de la tabla */
+
+   protected string $Alias;
+
+    
 
    /// para los valores que enviamos al hacer where 
 
@@ -13,7 +23,8 @@ class Model extends Conexion implements orm
    /** Método para inicializar la query => select *from tabla */
    public function initQuery()
    {
-     $this->Query = "SELECT * FROM ".$this->Tabla;
+     $this->ValidateTablaClass(); 
+     $this->Query = "SELECT * FROM ".$this->Tabla." as ".$this->Alias;
 
      return $this;
    } 
@@ -64,7 +75,7 @@ class Model extends Conexion implements orm
     /** Método que ejecuta las consultas */
     public function get()
     {
-      $this->ValidateTablaClass(); 
+       
       try {
         $this->Pps = $this->getConexion()->prepare($this->Query);
 
@@ -119,7 +130,24 @@ class Model extends Conexion implements orm
   /*** save para realizar registros */
   public function save()
   {
+    $this->ValidateTablaClass();
+    $this->Query = "INSERT INTO ".$this->Tabla."(";
 
+    /** Recorremos los datos, para los atributos*/
+    foreach($this->getAtributes() as $atributo => $value):
+     $this->Query.=$atributo.",";
+    endforeach;
+    /// eliminamos la última ,
+    $this->Query = rtrim($this->Query,",").") VALUES(";
+
+    /** Recorremos los datos, para los valores */
+    foreach($this->getAtributes() as $atributo => $value):
+        $this->Query.=":".$atributo.",";
+    endforeach;
+    /// eliminamos la última ,
+    $this->Query = rtrim($this->Query,",").")";
+
+    return $this->ExecQuery($this->getAtributes(),$this->Query);
   }
   /*** actualizar o modificar 
    update tabla set atributo1=valor1,atributo2=valor2
@@ -166,6 +194,25 @@ class Model extends Conexion implements orm
     if(empty($this->Tabla))
     {
      $this->Tabla = strtolower(explode("/",str_replace("\\","/",get_class($this)))[2]);
+    }
+  }
+
+  /** Para eliminar registros
+   *DELETE FROM TABLA WHERE id=4
+   */
+  public function delete(int $id)
+  {
+    $this->ValidateTablaClass();
+    $this->Query = "DELETE FROM ".$this->Tabla." WHERE ".$this->PrimaryKey."=:".$this->PrimaryKey;
+    try {
+      $this->Pps = $this->getConexion()->prepare($this->Query);
+      $this->Pps->bindParam(":".$this->PrimaryKey,$id);
+
+      return $this->Pps->execute();
+    } catch (\Throwable $th) {
+      echo "<h2>".$th->getMessage()."</h2>";
+    }finally{
+      $this->closeDataBase();
     }
   }
 }

@@ -32,4 +32,7 @@ interface orm{
      public function save();
      /*** actualizar o modificar */
      public function Update(array $datos);
+
+     /** Para eliminar registros */
+     public function delete(int $id);
 }
