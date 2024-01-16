@@ -372,3 +372,865 @@ Stack trace:
 #4 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
 #5 {main}
   thrown in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 32
+[11-Jan-2024 00:31:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "if" in C:\xampp\htdocs\mitienda\app\Http\controllers\ClienteController.php on line 69
+[11-Jan-2024 00:31:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "if" in C:\xampp\htdocs\mitienda\app\Http\controllers\ClienteController.php on line 69
+[11-Jan-2024 00:32:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "if" in C:\xampp\htdocs\mitienda\app\Http\controllers\ClienteController.php on line 68
+[11-Jan-2024 00:41:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "TIEMPO_EXPIRED" in C:\xampp\htdocs\mitienda\app\Http\controllers\ClienteController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(98): ClienteController->storeCuenta()
+#1 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(ClienteController), 'storeCuenta')
+#2 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\mitienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\mitienda\app\Http\controllers\ClienteController.php on line 18
+[11-Jan-2024 00:41:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "TIEMPO_EXPIRED" in C:\xampp\htdocs\mitienda\app\Http\controllers\ClienteController.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(98): ClienteController->storeCuenta()
+#1 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(ClienteController), 'storeCuenta')
+#2 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\mitienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\mitienda\app\Http\controllers\ClienteController.php on line 18
+[11-Jan-2024 00:43:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "TIEMPO_EXPIRED" in C:\xampp\htdocs\mitienda\app\Http\controllers\ClienteController.php:19
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(98): ClienteController->storeCuenta()
+#1 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(ClienteController), 'storeCuenta')
+#2 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#3 C:\xampp\htdocs\mitienda\index.php(9): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\mitienda\app\Http\controllers\ClienteController.php on line 19
+[11-Jan-2024 00:44:03 Europe/Berlin] PHP Warning:  Constant TIEMPO_EXPIRED already defined in C:\xampp\htdocs\mitienda\config\app.php on line 5
+[11-Jan-2024 01:35:32 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 44
+[11-Jan-2024 03:28:05 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 44
+[11-Jan-2024 03:28:14 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 44
+[12-Jan-2024 02:58:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: ClienteController::send(): Return value must be of type bool, none returned in C:\xampp\htdocs\curso_tienda\app\lib\Email.php:44
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(73): ClienteController->send(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(49): ClienteController->procesoSaveCliente()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): ClienteController->saveAccount()
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(ClienteController), 'saveAccount')
+#4 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Email.php on line 44
+[12-Jan-2024 03:00:26 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: ClienteController::send(): Return value must be of type bool, none returned in C:\xampp\htdocs\curso_tienda\app\lib\Email.php:44
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(73): ClienteController->send(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(49): ClienteController->procesoSaveCliente()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): ClienteController->saveAccount()
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(ClienteController), 'saveAccount')
+#4 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Email.php on line 44
+[12-Jan-2024 03:02:24 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: ClienteController::send(): Return value must be of type bool, none returned in C:\xampp\htdocs\curso_tienda\app\lib\Email.php:48
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(73): ClienteController->send(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(49): ClienteController->procesoSaveCliente()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): ClienteController->saveAccount()
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(ClienteController), 'saveAccount')
+#4 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Email.php on line 48
+[12-Jan-2024 03:03:20 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: ClienteController::send(): Return value must be of type bool, none returned in C:\xampp\htdocs\curso_tienda\app\lib\Email.php:48
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(73): ClienteController->send(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(49): ClienteController->procesoSaveCliente()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): ClienteController->saveAccount()
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(ClienteController), 'saveAccount')
+#4 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Email.php on line 48
+[12-Jan-2024 03:10:58 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: ClienteController::send(): Return value must be of type bool, none returned in C:\xampp\htdocs\curso_tienda\app\lib\Email.php:48
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(73): ClienteController->send(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(49): ClienteController->procesoSaveCliente()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): ClienteController->saveAccount()
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(ClienteController), 'saveAccount')
+#4 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Email.php on line 48
+[12-Jan-2024 03:40:37 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: ClienteController::send(): Return value must be of type bool, none returned in C:\xampp\htdocs\curso_tienda\app\lib\Email.php:48
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(73): ClienteController->send(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(49): ClienteController->procesoSaveCliente()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): ClienteController->saveAccount()
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(ClienteController), 'saveAccount')
+#4 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Email.php on line 48
+[12-Jan-2024 03:44:05 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: ClienteController::send(): Return value must be of type bool, none returned in C:\xampp\htdocs\curso_tienda\app\lib\Email.php:44
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(73): ClienteController->send(Array)
+#1 C:\xampp\htdocs\curso_tienda\app\Http\controllers\ClienteController.php(49): ClienteController->procesoSaveCliente()
+#2 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): ClienteController->saveAccount()
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(ClienteController), 'saveAccount')
+#4 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\Email.php on line 44
+[13-Jan-2024 04:33:57 Europe/Berlin] PHP Warning:  Undefined array key "current" in C:\xampp\htdocs\mitienda\app\lib\Session.php on line 26
+[13-Jan-2024 04:33:58 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned in C:\xampp\htdocs\mitienda\app\lib\Session.php:26
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(20): app\lib\BaseController->getSession('current')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(27): Windwalker\Edge\Edge->render('resources/views...', Array)
+#4 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#5 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#6 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#7 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#8 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#9 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#10 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(TypeError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(27): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php)
+
+| View layout: resources/views/carrito.blade.php (resources/views/carrito.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#3 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#4 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php on line 260
+[13-Jan-2024 04:34:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "this" in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code:20
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(27): Windwalker\Edge\Edge->render('resources/views...', Array)
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#4 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#5 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#6 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#7 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#8 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#9 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: Undefined constant "this"
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Error), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(27): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: Undefined constant "this"
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php)
+
+| View layout: resources/views/carrito.blade.php (resources/views/carrito.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#3 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#4 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php on line 260
+[13-Jan-2024 04:35:51 Europe/Berlin] PHP Warning:  Undefined array key "current" in C:\xampp\htdocs\mitienda\app\lib\Session.php on line 26
+[13-Jan-2024 04:35:51 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned in C:\xampp\htdocs\mitienda\app\lib\Session.php:26
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(22): app\lib\BaseController->getSession('current')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(27): Windwalker\Edge\Edge->render('resources/views...', Array)
+#4 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#5 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#6 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#7 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#8 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#9 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#10 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(TypeError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(27): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php)
+
+| View layout: resources/views/carrito.blade.php (resources/views/carrito.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#3 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#4 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php on line 260
+[13-Jan-2024 04:39:29 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 44
+[13-Jan-2024 04:40:00 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 44
+[13-Jan-2024 04:42:16 Europe/Berlin] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected double-quoted string "adrian", expecting identifier or variable or "{" or "$" in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code:18
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(13): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected double-quoted string "adrian", expecting identifier or variable or "{" or "$"
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(ParseError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(13): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected double-quoted string "adrian", expecting identifier or variable or "{" or "$"
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php)
+
+| View layout: resources/views/tienda.blade.php (resources/views/tienda.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#3 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#4 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php on line 260
+[13-Jan-2024 04:42:56 Europe/Berlin] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected identifier "current" in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code:19
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(13): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected identifier "current"
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(ParseError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(13): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected identifier "current"
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php)
+
+| View layout: resources/views/tienda.blade.php (resources/views/tienda.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#3 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#4 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php on line 260
+[13-Jan-2024 04:44:05 Europe/Berlin] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected identifier "current" in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code:18
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(13): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected identifier "current"
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(ParseError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(13): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected identifier "current"
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php)
+
+| View layout: resources/views/tienda.blade.php (resources/views/tienda.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#3 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#4 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php on line 260
+[13-Jan-2024 05:04:55 Europe/Berlin] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected token ")" in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code:55
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(29): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected token ")"
+
+| View layout: resources/views/components/productos_carrito.blade.php (resources/views/components/productos_carrito.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(ParseError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(29): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected token ")"
+
+| View layout: resources/views/components/productos_carrito.blade.php (resources/views/components/productos_carrito.blade.php)
+
+| View layout: resources/views/carrito.blade.php (resources/views/carrito.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#3 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#4 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php on line 260
+[13-Jan-2024 05:10:37 Europe/Berlin] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected variable "$ruta" in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code:57
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(29): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected variable "$ruta"
+
+| View layout: resources/views/components/productos_carrito.blade.php (resources/views/components/productos_carrito.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(ParseError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(29): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#6 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#7 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected variable "$ruta"
+
+| View layout: resources/views/components/productos_carrito.blade.php (resources/views/components/productos_carrito.blade.php)
+
+| View layout: resources/views/carrito.blade.php (resources/views/carrito.blade.php) in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\mitienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#3 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#4 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\mitienda\index.php(10): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php on line 260
+[16-Jan-2024 00:43:44 Europe/Berlin] PHP Warning:  Undefined array key "current" in C:\xampp\htdocs\curso_tienda\app\lib\Session.php on line 26
+[16-Jan-2024 00:43:44 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned in C:\xampp\htdocs\curso_tienda\app\lib\Session.php:26
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(19): app\lib\BaseController->getSession('current')
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(13): Windwalker\Edge\Edge->render('resources/views...', Array)
+#4 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#5 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#6 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#7 C:\xampp\htdocs\curso_tienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#8 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#9 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#10 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(TypeError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(13): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\curso_tienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#6 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#7 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: app\lib\BaseController::getSession(): Return value must be of type array|string|int|bool, null returned
+
+| View layout: resources/views/components/nav_tienda.blade.php (resources/views/components/nav_tienda.blade.php)
+
+| View layout: resources/views/tienda.blade.php (resources/views/tienda.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\app\Http\controllers\TiendaController.php(14): View('tienda', Array)
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): TiendaController->index()
+#4 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php on line 260
+[16-Jan-2024 02:56:41 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: hash_hmac() expects at least 3 arguments, 2 given in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code:51
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(51): hash_hmac('sha256', 1)
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(29): Windwalker\Edge\Edge->render('resources/views...', Array)
+#4 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#5 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#6 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#7 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#8 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#9 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#10 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: hash_hmac() expects at least 3 arguments, 2 given
+
+| View layout: resources/views/components/productos_carrito.blade.php (resources/views/components/productos_carrito.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(ArgumentCountError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(29): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#6 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#7 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: hash_hmac() expects at least 3 arguments, 2 given
+
+| View layout: resources/views/components/productos_carrito.blade.php (resources/views/components/productos_carrito.blade.php)
+
+| View layout: resources/views/carrito.blade.php (resources/views/carrito.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#4 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php on line 260
+[16-Jan-2024 02:56:45 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: hash_hmac() expects at least 3 arguments, 2 given in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code:51
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(51): hash_hmac('sha256', 1)
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(29): Windwalker\Edge\Edge->render('resources/views...', Array)
+#4 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#5 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#6 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#7 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#8 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#9 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#10 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: hash_hmac() expects at least 3 arguments, 2 given
+
+| View layout: resources/views/components/productos_carrito.blade.php (resources/views/components/productos_carrito.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(ArgumentCountError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(29): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#6 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#7 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: hash_hmac() expects at least 3 arguments, 2 given
+
+| View layout: resources/views/components/productos_carrito.blade.php (resources/views/components/productos_carrito.blade.php)
+
+| View layout: resources/views/carrito.blade.php (resources/views/carrito.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(13): View('carrito')
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(65): CarritoController->index()
+#4 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#5 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php on line 260
+[16-Jan-2024 03:00:38 Europe/Berlin] PHP Fatal error:  Uncaught Windwalker\Edge\Exception\LayoutNotFoundException: View file not found: resources/views/components/pagar.blade.php.
+ (Paths: ) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Loader\EdgeFileLoader.php:69
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(158): Windwalker\Edge\Loader\EdgeFileLoader->find('resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(16): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(90): View('checkout')
+#6 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#7 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#8 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#9 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: View file not found: resources/views/components/pagar.blade.php.
+ (Paths: )
+
+| View layout: resources/views/checkout.blade.php (resources/views/checkout.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\LayoutNotFoundException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(90): View('checkout')
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#4 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#5 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#6 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php on line 260
+[16-Jan-2024 04:07:45 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:08:10 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:08:50 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:09:40 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:10:05 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:10:07 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:10:22 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:10:24 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:10:34 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:10:46 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:11:02 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:11:09 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:11:20 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:11:52 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:13:06 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:13:15 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:15:21 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 25
+[16-Jan-2024 04:15:50 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:15:50 Europe/Berlin] PHP Warning:  Undefined variable $ in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:15:50 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:16:02 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:16:02 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:16:05 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:16:05 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:16:12 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:16:52 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:16:52 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:17:09 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:17:09 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:17:16 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:17:16 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:17:49 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 19
+[16-Jan-2024 04:17:49 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 28
+[16-Jan-2024 04:18:08 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:18:08 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:18:31 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:18:31 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:18:45 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:18:45 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:18:46 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:18:46 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:18:56 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:18:56 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:20:30 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 16
+[16-Jan-2024 04:20:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Windwalker\Edge\Edge::render(): Argument #2 ($__data) must be of type array, null given, called in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 16 and defined in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:149
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(16): Windwalker\Edge\Edge->render('resources/views...', NULL, Array)
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#3 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#4 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(97): View('checkout')
+#5 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#6 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#7 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#8 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: Windwalker\Edge\Edge::render(): Argument #2 ($__data) must be of type array, null given, called in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 16
+
+| View layout: resources/views/checkout.blade.php (resources/views/checkout.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(TypeError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(97): View('checkout')
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#4 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#5 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#6 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php on line 260
+[16-Jan-2024 04:20:45 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 15
+[16-Jan-2024 04:20:45 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 18
+[16-Jan-2024 04:20:45 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 27
+[16-Jan-2024 04:21:21 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:22:33 Europe/Berlin] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected token "=", expecting "," or ";" in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code:5
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(16): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(97): View('checkout')
+#6 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#7 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#8 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#9 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected token "=", expecting "," or ";"
+
+| View layout: resources/views/components/pagar.blade.php (resources/views/components/pagar.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(ParseError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(16): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(97): View('checkout')
+#6 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#7 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#8 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#9 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected token "=", expecting "," or ";"
+
+| View layout: resources/views/components/pagar.blade.php (resources/views/components/pagar.blade.php)
+
+| View layout: resources/views/checkout.blade.php (resources/views/checkout.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(97): View('checkout')
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#4 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#5 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#6 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php on line 260
+[16-Jan-2024 04:22:42 Europe/Berlin] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected token "=", expecting "," or ";" in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code:5
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(16): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(97): View('checkout')
+#6 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#7 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#8 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#9 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected token "=", expecting "," or ";"
+
+| View layout: resources/views/components/pagar.blade.php (resources/views/components/pagar.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(ParseError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(16): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(97): View('checkout')
+#6 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#7 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#8 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#9 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: syntax error, unexpected token "=", expecting "," or ";"
+
+| View layout: resources/views/components/pagar.blade.php (resources/views/components/pagar.blade.php)
+
+| View layout: resources/views/checkout.blade.php (resources/views/checkout.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(97): View('checkout')
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#4 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#5 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#6 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php on line 260
+[16-Jan-2024 04:22:58 Europe/Berlin] PHP Warning:  Undefined global variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:22:58 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:24:48 Europe/Berlin] PHP Warning:  Undefined array key "total" in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 21
+[16-Jan-2024 04:24:48 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, array given in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code:38
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(38): number_format(Array, 2, ',', ' ')
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(16): Windwalker\Edge\Edge->render('resources/views...', Array)
+#4 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#5 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#6 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#7 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(97): View('checkout')
+#8 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#9 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#10 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#11 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: number_format(): Argument #1 ($num) must be of type float, array given
+
+| View layout: resources/views/components/pagar.blade.php (resources/views/components/pagar.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(TypeError), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code(16): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227): eval()
+#3 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(182): Windwalker\Edge\Edge->Windwalker\Edge\{closure}('resources/views...')
+#4 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#5 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(97): View('checkout')
+#6 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#7 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#8 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#9 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Windwalker\Edge\Exception\EdgeException: number_format(): Argument #1 ($num) must be of type float, array given
+
+| View layout: resources/views/components/pagar.blade.php (resources/views/components/pagar.blade.php)
+
+| View layout: resources/views/checkout.blade.php (resources/views/checkout.blade.php) in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php:260
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(185): Windwalker\Edge\Edge->wrapException(Object(Windwalker\Edge\Exception\EdgeException), 'resources/views...', 'resources/views...')
+#1 C:\xampp\htdocs\curso_tienda\app\Controls.php(32): Windwalker\Edge\Edge->render('resources/views...', Array)
+#2 C:\xampp\htdocs\curso_tienda\app\Http\controllers\CarritoController.php(97): View('checkout')
+#3 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(98): CarritoController->checkout()
+#4 C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'checkout')
+#5 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#6 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php on line 260
+[16-Jan-2024 04:24:57 Europe/Berlin] PHP Warning:  Undefined array key "total" in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 21
+[16-Jan-2024 04:24:57 Europe/Berlin] PHP Warning:  Undefined global variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:24:57 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:25:16 Europe/Berlin] PHP Warning:  Undefined array key "total" in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 21
+[16-Jan-2024 04:25:16 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:25:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:25:16 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:25:32 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:29:22 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:29:28 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:29:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:29:28 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:29:51 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:29:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:29:51 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:30:00 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:30:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:30:00 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:30:07 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:30:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:30:07 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:30:12 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:30:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:30:12 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 26
+[16-Jan-2024 04:31:07 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:31:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:31:15 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:31:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:31:42 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:31:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:31:53 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:31:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:31:56 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:31:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 17
+[16-Jan-2024 04:35:19 Europe/Berlin] PHP Warning:  Undefined variable $ImporteTotal_ in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 19
+[16-Jan-2024 04:35:22 Europe/Berlin] PHP Warning:  Undefined variable $ImporteTotal_ in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 19
+[16-Jan-2024 04:35:35 Europe/Berlin] PHP Warning:  Undefined variable $ImporteTotal_ in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 19
+[16-Jan-2024 04:36:14 Europe/Berlin] PHP Warning:  Undefined variable $ImporteTotal_ in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 19
+[16-Jan-2024 04:39:38 Europe/Berlin] PHP Warning:  Undefined variable $ImporteTotal_ in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 27
+[16-Jan-2024 04:39:49 Europe/Berlin] PHP Warning:  Undefined variable $ImporteTotal_ in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 27

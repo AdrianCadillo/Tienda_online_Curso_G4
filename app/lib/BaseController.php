@@ -10,7 +10,7 @@ class BaseController
         session_start();
       }
   }  
-  use Request,Session,Csrf,Fecha;
+  use Request,Session,Csrf,Fecha,Authenticate;
 
   /** Método que muestra la cantidad de productos añadidos al carrito */
 

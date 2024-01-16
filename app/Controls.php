@@ -78,6 +78,12 @@ function Redirect(string $redirect){
 function Back(){
  echo "<script>history.back()</script>"; 
 }
+/** Método que genera códigos aleatorios */
+function GeneraCodeAleatorio(int $cantidad = 6,string $caracteres = "abcdefghijklmnopqrstuvwxyz0123456789")
+{
+  return substr(str_shuffle($caracteres),0,$cantidad);  
+}
+
 
  
  

@@ -3,7 +3,7 @@ namespace app\orm;
 
 use app\database\Conexion;
 
-class Model extends Conexion implements orm
+class Model extends Conexion implements Orm
 {
    use Save;
    protected string $Tabla = "";

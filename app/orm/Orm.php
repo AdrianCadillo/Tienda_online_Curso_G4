@@ -1,7 +1,7 @@
 <?php 
 namespace app\orm;
 
-interface orm{
+interface Orm{
   
     /** Método para inicializar la query => select *from tabla */
     public function initQuery();

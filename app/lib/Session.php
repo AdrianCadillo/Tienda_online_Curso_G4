@@ -42,4 +42,5 @@ public function DestroyAllSesion(string $NameSession):void
     session_destroy();
   }
 }
+
 }
