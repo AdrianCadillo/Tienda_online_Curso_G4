@@ -9,7 +9,13 @@ class ProductoController extends BaseController
   use Upload;
   public function index()
   {
-    return View("producto.index");
+    $this->NoAutheticado();///tienda
+    if($this->DataUser()[0]->rol === 'administrador')
+    {
+      return View("producto.index");
+    }
+    
+    return View("page_errors.NoAutorizado");
   }
 
   /** Método para mostrar la vista de crear nuevos productos */

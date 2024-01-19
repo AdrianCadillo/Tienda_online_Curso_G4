@@ -1,0 +1,1 @@
+<h1 style="color:red">No estas authorizado para ver esta página</h1>

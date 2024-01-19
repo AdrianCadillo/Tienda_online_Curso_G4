@@ -23,6 +23,25 @@ trait Authenticate
         return $Data;
     }
 
+    /// método que verifica que el usuario estee authenticado
+    public function Autheticado()
+    {
+        if($this->ExistSession("user") or isset($_COOKIE['user']))
+        {
+          Redirect("producto");  
+          exit;
+        }
+    }
+
+    /// método que verifica que el usuario no estee authenticado
+    public function NoAutheticado()
+    {
+        if(!$this->ExistSession("user") and !isset($_COOKIE['user']))
+        {
+          Redirect("tienda"); 
+          exit; 
+        }
+    }
     /**
      * Cerrar la sesión
      */

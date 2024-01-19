@@ -56,6 +56,8 @@
 </table>
 @else 
 <div class="alert alert-danger">
-    <b>No hay productos añadidos al carrito</b>
+    <b>No hay productos añadidos al carrito
+        <a href="{{route("tienda")}}" class="btn btn-primary"> <i class="fas fa-arrow-right"></i>Ir a compra</a>
+    </b>
 </div>
 @endif

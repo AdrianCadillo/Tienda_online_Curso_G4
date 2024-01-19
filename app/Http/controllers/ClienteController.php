@@ -135,6 +135,12 @@ class ClienteController extends BaseController
     ->Where("codigo_confirm","=",$this->post("codigo"))->get();
     if($response)
     {
+        $modelUser->Update([
+            "id_usuario" => $response[0]->id_usuario,
+            "token_validate" => null,
+            "codigo_confirm" => null,
+            "tiempo_expired" => null
+        ]);
         /// creamos una variable de sessión, para acceder al sistema
         $this->Sesion("user",$response[0]->id_usuario);
         Redirect("tienda");

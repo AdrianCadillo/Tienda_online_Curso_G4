@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-warning bg-warning">
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
     <div class="container-fluid">
       <a class="navbar-brand text-dark" href="{{route("tienda")}}"><b>Tienda</b></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -6,7 +6,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav me-auto">
-          <a class="nav-link active" aria-current="page" href="#"><b>Login <i class="fas fa-sign-in"></i></b></a>
+          
         </div>
         <div class="nav-item  ml-auto">
           <div class="dropdown">

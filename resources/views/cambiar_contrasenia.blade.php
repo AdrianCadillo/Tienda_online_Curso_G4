@@ -19,31 +19,28 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <h1><b>Login</b></h1>
+      <h3><b>Cambiar su contraseña</b></h3>
     </div>
     <div class="card-body">
-        @if ($this->ExistSession("login_errors"))
-            <div class="alert alert-danger">
-                <ol>
-                    @foreach ($this->getSession("login_errors") as $error)
-                        <li>{{$error}}</li>
-                    @endforeach
-                </ol>
-            </div>
-            {{$this->destroyOneSesion("login_errors")}}
-        @endif
+      @if ($this->ExistSession("error"))
+          <span class="text-danger">
+            <b>{{$this->getSession("error")}}</b>
+          </span>
+          {{$this->destroyOneSesion("error")}}
+      @endif
 
-        @if ($this->ExistSession("error_login"))
-        <div class="alert alert-danger">
-             <b>{{$this->getSession("error_login")}}</b>
-        </div>
-        {{$this->destroyOneSesion("error_login")}}
-       @endif
-      <form action="{{route("login/login_acceso")}}" method="post">
+      @if ($this->ExistSession("success"))
+          <span class="text-success">
+            <b>{{$this->getSession("success")}}</b>
+          </span>
+          {{$this->destroyOneSesion("success")}}
+      @endif
+ 
+      <form action="{{route("login/proceso_reseteo")}}" method="post">
         {{$this->InputCsrf()}}
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Nombre de usuario..."
-          name="username">
+          <input type="password" class="form-control" placeholder="Escriba su password..."
+          name="password">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -51,35 +48,25 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Password..."
-          name="password">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-lock"></span>
+            <input type="password" class="form-control" placeholder="Confirma su contraseña..."
+            name="password_confirm">
+            <div class="input-group-append">
+              <div class="input-group-text">
+                <span class="fas fa-envelope"></span>
+              </div>
             </div>
           </div>
-        </div>
+        
         <div class="row">
-          <div class="col-8">
-            <div class="icheck-primary">
-              <input type="checkbox" id="remember">
-              <label for="remember">
-                Remember Me
-              </label>
-            </div>
-          </div>
+           
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+            <button type="submit" class="btn btn-primary btn-block">Cambiar password</button>
           </div>
           <!-- /.col -->
         </div>
       </form>
- 
-      <p class="mb-1">
-        <a href="{{route("login/reseteo_password")}}">Recuperar la contraseña</a>
-      </p>
-       
+  
     </div>
     <!-- /.card-body -->
   </div>

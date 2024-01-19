@@ -1234,3 +1234,108 @@ Stack trace:
 [16-Jan-2024 04:36:14 Europe/Berlin] PHP Warning:  Undefined variable $ImporteTotal_ in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 19
 [16-Jan-2024 04:39:38 Europe/Berlin] PHP Warning:  Undefined variable $ImporteTotal_ in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 27
 [16-Jan-2024 04:39:49 Europe/Berlin] PHP Warning:  Undefined variable $ImporteTotal_ in C:\xampp\htdocs\curso_tienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 27
+[18-Jan-2024 02:59:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ClienteController::index() in C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php:65
+Stack trace:
+#0 C:\xampp\htdocs\curso_tienda\autoload.php(15): app\lib\Route->run()
+#1 C:\xampp\htdocs\curso_tienda\index.php(9): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\curso_tienda\app\lib\ProcessRoute.php on line 65
+[18-Jan-2024 03:27:59 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 43
+[18-Jan-2024 03:28:25 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 43
+[18-Jan-2024 03:28:55 Europe/Berlin] PHP Warning:  Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 23
+[18-Jan-2024 03:34:16 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 13
+[18-Jan-2024 04:25:02 Europe/Berlin] PHP Warning:  Undefined array key "producto_id" in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 157
+[18-Jan-2024 04:25:02 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\mitienda\app\orm\Model.php on line 179
+[18-Jan-2024 04:27:22 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:27:25 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:27:28 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:27:32 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:27:49 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\mitienda\app\orm\Model.php on line 179
+[18-Jan-2024 04:28:39 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\mitienda\app\orm\Model.php on line 179
+[18-Jan-2024 04:29:21 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\mitienda\app\orm\Model.php on line 179
+[18-Jan-2024 04:36:28 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:36:34 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:36:42 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:36:55 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:38:01 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:38:02 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:38:34 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: CarritoController::ProcessAddCarrito(): Argument #4 ($foto) must be of type string, null given, called in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 28 and defined in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php:42
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(28): CarritoController->ProcessAddCarrito('Goseosa Fanta d...', 11.7, 1, NULL, 7)
+#1 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(98): CarritoController->addCart()
+#2 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'addCart')
+#3 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#4 C:\xampp\htdocs\mitienda\index.php(9): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 42
+[18-Jan-2024 04:38:41 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: CarritoController::ProcessAddCarrito(): Argument #4 ($foto) must be of type string, null given, called in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 28 and defined in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php:42
+Stack trace:
+#0 C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php(28): CarritoController->ProcessAddCarrito('Goseosa Fanta d...', 11.7, 1, NULL, 7)
+#1 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(98): CarritoController->addCart()
+#2 C:\xampp\htdocs\mitienda\app\lib\ProcessRoute.php(60): app\lib\Route->getParams(Object(CarritoController), 'addCart')
+#3 C:\xampp\htdocs\mitienda\autoload.php(15): app\lib\Route->run()
+#4 C:\xampp\htdocs\mitienda\index.php(9): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 42
+[18-Jan-2024 04:38:47 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:39:59 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:48:17 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:48:35 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalCompra in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 109
+[18-Jan-2024 04:48:36 Europe/Berlin] PHP Warning:  Undefined variable $TotalCompra in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 60
+[18-Jan-2024 04:49:26 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalCompra in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 109
+[18-Jan-2024 04:49:26 Europe/Berlin] PHP Warning:  Undefined variable $TotalCompra in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 60
+[18-Jan-2024 04:49:30 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:49:43 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalCompra in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 109
+[18-Jan-2024 04:49:43 Europe/Berlin] PHP Warning:  Undefined variable $TotalCompra in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 60
+[18-Jan-2024 04:50:57 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalCompra in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 109
+[18-Jan-2024 04:50:57 Europe/Berlin] PHP Warning:  Undefined variable $TotalCompra in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 60
+[18-Jan-2024 04:51:04 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:51:06 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:51:11 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:51:46 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:52:13 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:52:26 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:52:37 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 04:54:34 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:05:16 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:05:40 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:07:20 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:07:24 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:07:53 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:08:16 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:08:36 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:09:16 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:09:33 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:10:06 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:14:34 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:14:44 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:17:18 Europe/Berlin] PHP Warning:  Undefined variable $Data in C:\xampp\htdocs\mitienda\app\lib\Authenticate.php on line 23
+[18-Jan-2024 05:17:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\mitienda\app\Http\controllers\ProductoController.php on line 13
+[18-Jan-2024 05:17:18 Europe/Berlin] PHP Warning:  Attempt to read property "rol" on null in C:\xampp\htdocs\mitienda\app\Http\controllers\ProductoController.php on line 13
+[18-Jan-2024 05:17:24 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:19:31 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 15
+[18-Jan-2024 05:19:31 Europe/Berlin] PHP Warning:  Attempt to read property "nombre_user" on null in C:\xampp\htdocs\mitienda\vendor\windwalker\edge\src\Edge.php(227) : eval()'d code on line 15
+[18-Jan-2024 05:22:16 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:23:12 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:23:34 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:23:35 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:23:38 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:23:42 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:24:17 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:24:20 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:24:39 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:25:36 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:26:06 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:26:11 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:26:16 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[18-Jan-2024 05:26:28 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[19-Jan-2024 00:54:34 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[19-Jan-2024 00:54:52 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[19-Jan-2024 00:57:44 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[19-Jan-2024 00:57:47 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[19-Jan-2024 00:57:49 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[19-Jan-2024 00:57:54 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[19-Jan-2024 01:00:43 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[19-Jan-2024 01:00:48 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[19-Jan-2024 01:00:55 Europe/Berlin] PHP Warning:  compact(): Undefined variable $TotalImporte in C:\xampp\htdocs\mitienda\app\Http\controllers\CarritoController.php on line 15
+[19-Jan-2024 01:57:33 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\curso_tienda\app\orm\Model.php on line 179
