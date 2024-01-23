@@ -25,8 +25,22 @@
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="productos_existentes" role="tabpanel"
                         aria-labelledby="nav-home-tab">
-                        <a href="{{ route('producto/create') }}" class="btn btn-primary float-end">Agregar uno nuevo <i
-                                class="fas fa-plus"></i></a>
+                        <div class="row mb-2">
+                            <div class="col-auto">
+                                <a href="{{ route('producto/create') }}" class="btn btn-primary float-end">Agregar uno nuevo <i
+                                    class="fas fa-plus"></i></a>
+                            </div>
+                            <div class="col-auto">
+                                <a href="{{route('producto/reporte') }}" target="_blank" class="btn btn-danger float-end">reporte pdf <i
+                                    class="fas fa-file-pdf"></i></a>
+                            </div>
+                            <div class="col-auto">
+                                <form action="{{route("producto/reporte_excel")}}" method="post">
+                                    {{$this->InputCsrf()}}
+                                    <button class="btn btn-outline-success">reporte excel</button>
+                                </form>
+                            </div>
+                        </div>
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped nowrap responsive" id="table_productos"
                                 style="width: 100%;">

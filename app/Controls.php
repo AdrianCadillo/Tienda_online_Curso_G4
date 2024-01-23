@@ -83,7 +83,10 @@ function GeneraCodeAleatorio(int $cantidad = 6,string $caracteres = "abcdefghijk
 {
   return substr(str_shuffle($caracteres),0,$cantidad);  
 }
-
+function utf8_(string $variable):string
+{
+ return iconv("UTF-8","ISO-8859-1",$variable);
+}
 
  
  

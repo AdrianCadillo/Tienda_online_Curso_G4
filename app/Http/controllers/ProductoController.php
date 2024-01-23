@@ -1,8 +1,11 @@
 <?php
 
 use app\lib\BaseController;
+use app\lib\pdf;
 use app\lib\Upload;
 use app\models\Producto;
+use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
 class ProductoController extends BaseController
 {
@@ -146,5 +149,117 @@ class ProductoController extends BaseController
    else{
     return json(['response' => "token-invalidate"]);
    }
+  }
+
+  /** Reporte de productos en pdf */
+  public function reporte()
+  {
+    $Total_Precios = 0.00;
+    $pdf = new pdf();
+    $pdf->AliasNbPages();
+    /// vamos asignarle un título al pdf
+    $pdf->SetTitle("reporte-productos");
+    /// agregar una nueva página
+    $pdf->AddPage();
+
+    $pdf->Image(asset("dist/img/AdminLTELogo.png"),10,15,50,50);
+    /// agregamos la fecha
+    $pdf->SetFont("Arial","B",12);
+    $pdf->Ln(12);
+    $pdf->SetX(140);
+    $pdf->Cell(18,10,"Fecha",1,0,"L");
+    $pdf->Cell(26,10,$this->FechaActual("d/m/Y"),1,1,"L");
+
+    /** Columnas de la tabla */
+    $pdf->Ln(20);
+    /** Indicamos los estilos para esa columna */
+    $pdf->SetFont("Arial","B",12);
+    $pdf->SetTextColor(248, 248, 255);
+    $pdf->SetFillColor(65, 105, 225);
+    $pdf->SetDrawColor(0, 255, 127);
+    $pdf->SetX(25);
+    $pdf->Cell(32,10,utf8_("CÓDIGO"),1,0,"L",true);
+    $pdf->Cell(100,10,"PRODUCTO",1,0,"L",true);
+    $pdf->Cell(32,10,"PRECIO",1,1,"L",true);
+
+    /** Recuperar los datos de la tabla productos */
+    $model = new Producto;
+
+    $Productos = $model->initQuery()->get();
+
+    /** darle estilo al body de la tabla */
+    $pdf->SetFont("Arial","",10);
+    $pdf->SetTextColor(0,0,0);
+    $pdf->SetFillColor(248, 248, 255); 
+    foreach($Productos as $producto)
+    {
+      $Total_Precios+=$producto->precio;
+      $pdf->SetX(25);
+      $pdf->Cell(32,10,$producto->id_producto,1,0,"L",true);
+      $pdf->Cell(100,10,utf8_("$producto->nombre_producto"),1,0,"L",true);
+      $pdf->Cell(32,10,$producto->precio." USD",1,1,"L",true);
+    }
+    $pdf->SetX(25);
+    $pdf->Cell(132,10,"Total en precio ",1,0,"L");
+    $pdf->Cell(32,10,number_format($Total_Precios,2,',',' ')." USD",1,1,"L");
+    /** Ejecutar el pdf */
+
+    $pdf->Output();
+  }
+
+  /** Método para reporte excel de productos */
+  public function reporte_excel()
+  {
+    /** Verificamos el token */
+    if($this->VerifyTokenCsrf($this->post("_token")))
+    {
+
+      /** Asignamos un nombre al reporte excel */
+      $Reporte_name_Excel = "reporte_productos".$this->FechaActual("YmdHis").rand();
+
+      /** Instanciar la libreria  */
+      $Excel = new Spreadsheet;
+
+      /**Creamos una hoja para el reporte */
+
+      $FileExcel = $Excel->getActiveSheet();
+
+      /** le asignamos un titulo a la hoja */
+      $FileExcel->setTitle("reporte-productos");
+      /** Mostramos los productos */
+       /** Recuperar los datos de la tabla productos */
+      $model = new Producto;
+
+      $Productos = $model->initQuery()->get();
+
+      /** Creamos las columnas de la tabla en el excel */
+      $FileExcel->setCellValue("A1","CODIGO");
+      $FileExcel->setCellValue("B1","PRODUCTO");
+      $FileExcel->setCellValue("C1","PRECIO");
+
+      $Fila = 2;
+
+      foreach($Productos as $producto)
+      {
+      $FileExcel->setCellValue("A".$Fila,$producto->id_producto);
+      $FileExcel->setCellValue("B".$Fila,utf8_($producto->nombre_producto));
+      $FileExcel->setCellValue("C".$Fila,$producto->precio);
+
+      $Fila++;
+      }
+
+      /// Forzamos la descarga automática del reporte
+      /* Here there will be some code where you create $spreadsheet */
+
+      // redirect output to client browser
+      header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+      header('Content-Disposition: attachment;filename="'.$Reporte_name_Excel.'.xlsx"');
+      header('Cache-Control: max-age=0');
+      ob_end_clean();
+      $writer = IOFactory::createWriter($Excel, 'Xlsx');
+      $writer->save('php://output');
+
+      exit;
+    }
   }
 }

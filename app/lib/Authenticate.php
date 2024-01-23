@@ -17,7 +17,7 @@ trait Authenticate
             $modelUser = new Usuario;
 
             $Data = $modelUser->initQuery()
-                ->Where("id_usuario", "=", $this->getSession("user"))->get();
+            ->Where("id_usuario", "=", $this->getSession("user"))->get();
         }
 
         return $Data;
